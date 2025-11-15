@@ -7,10 +7,12 @@
 #let header(
   firstname,
   lastname,
-  email: none,
-  mobile: none,
-  github: none,
-  linkedin: none,
+  socials: (
+    email: none,
+    mobile: none,
+    github: none,
+    linkedin: none,
+  ),
   position: none,
 ) = {
   set align(center)
